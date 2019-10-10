@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>34.- Lyout</title>
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="CSS/estilos.css">
+
+</head>
+<body>
+	<header>
+		<nav class="navbar navbar-inverse navbar-static-top" role="navigation">
+			<div class="container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="colapse" data-target="#navegacion-fm">
+						<span class="sr-only">Desplegar/Ocultar Menu</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a href="#" class="navbar-brand">José Master</a>
+				</div>
+				
+				<!-- inicia el menu -->
+				<div class="collapse navbar-collapse" id="navegacion-fm">
+					<ul class="nav navbar-nav">
+						<li class="active"><a href="#">Inicio</a></li>
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">Categorias <span class="caret"></span></a>
+							<ul class="dropdown-menu" role="menu">
+								<li class=""><a href="#">Categoria #1</a></li>
+								<li class="divider"></li>
+								<li class=""><a href="#">Categoria #2</a></li>
+								<li class=""><a href="#">Categoria #3</a></li>
+								<li class=""><a href="#">Categoria #4</a></li>
+							</ul>
+						</li>
+						<li class=""><a href="#">Blog</a></li>
+						<li class=""><a href="#">Contacto</a></li>
+					</ul>
+					<form action="" class="navbar-form navbar-right" role="search">
+						<div class="form-group">
+							<input type="text" class="form-control" placeholder="buscar">
+						</div>
+						<button type="submit" class="btn btn-primary">
+							<span class="glyphicon glyphicon-search"></span>
+						</button>
+					</form>
+				</div>
+			</div>
+		</nav>
+	</header>
+
+	<section class="jumbotron">
+		<div class="container">
+			<h1>José Master Blog</h1>
+			<p>Blog de diseño web</p>
+		</div>
+	</section>
+	<section class="main container">
+		<div class="row">
+			<section class="posts col-md-9">
+				<div class="migas-de-pan">
+					<ol class="breadcrumb">
+						<li><a href="#">Inicio</a></li>
+						<li><a href="#">Categorias</a></li>
+						<li class="active">Diseño web</li>
+					</ol>
+				</div>
+				<article class="post clearfix">
+					<a href="#" class="thumb pull-left">
+						<img class="img-thumbnail" src="imagenes/barco.jpg" alt="">
+					</a>
+					<h2 class="post-title">
+						<a href="#">Inicia proyectos HTML5 mas rapido con...</a>
+					</h2>
+					<p><span class="post-fecha">10 de Mayo de 1999</span> por <span class="post-autor"><a href="#"> José Adalberto Pulido Ramírez</a></span></p>
+					<p class="post-contenido text-justify">
+						Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis inventore blanditiis doloribus quasi. Et commodi odio, sequi, optio placeat nulla recusandae blanditiis expedita aliquid fuga mollitia qui, est eum. Ipsa repellat dicta magni ab aliquam ut animi voluptatem itaque repellendus!
+					</p>
+					<div class="contenedor-botones">
+						<a href="#" class="btn btn-primary">Leer mas</a>
+						<a href="#" class="btn btn-success">Comentarios <span class="badge">20</span></a>
+
+					</div>
+				</article>
+				<article class="post clearfix">
+					<a href="#" class="thumb pull-left">
+						<img class="img-thumbnail" src="imagenes/circuitos.jpg" alt="">
+					</a>
+					<h2 class="post-title">
+						<a href="#">Inicia proyectos HTML5 mas rapido con...</a>
+					</h2>
+					<p><span class="post-fecha">10 de Mayo de 1999</span> por <span class="post-autor"><a href="#">José Adalberto Pulido Ramírez</a></span></p>
+					<p class="post-contenido text-justify">
+						Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis inventore blanditiis doloribus quasi. Et commodi odio, sequi, optio placeat nulla recusandae blanditiis expedita aliquid fuga mollitia qui, est eum. Ipsa repellat dicta magni ab aliquam ut animi voluptatem itaque repellendus!
+					</p>
+					<div class="contenedor-botones">
+						<a href="#" class="btn btn-primary">Leer mas</a>
+						<a href="#" class="btn btn-success">Comentarios <span class="badge">20</span></a>
+
+					</div>
+				</article>
+				<article class="post clearfix">
+					<a href="#" class="thumb pull-left">
+						<img class="img-thumbnail" src="imagenes/ciudad.jpg" alt="">
+					</a>
+					<h2 class="post-title">
+						<a href="#">Inicia proyectos HTML5 mas rapido</a>
+					</h2>
+					<p><span class="post-fecha">10 de Mayo de 1999</span> por <span class="post-autor"><a href="#">José Adalberto Pulido Ramírez</a></span></p>
+					<p class="post-contenido text-justify">
+						Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis inventore blanditiis doloribus quasi. Et commodi odio, sequi, optio placeat nulla recusandae blanditiis expedita aliquid fuga mollitia qui, est eum. Ipsa repellat dicta magni ab aliquam ut animi voluptatem itaque repellendus!
+					</p>
+					<div class="contenedor-botones">
+						<a href="#" class="btn btn-primary">Leer mas</a>
+						<a href="#" class="btn btn-success">Comentarios <span class="badge">20</span></a>
+
+					</div>
+				</article>
+				<nav>
+					<div class="center-block">
+						<ul class="pagination">
+							<li class="disabled"><a href="#">&laquo;<span class="sr-only">Anterior</span></a></li>
+							<li class="active"><a href="#">1</a></li>
+							<li><a href="#">1</a></li>
+							<li><a href="#">2</a></li>
+							<li><a href="#">3</a></li>
+							<li><a href="#">4</a></li>
+							<li><a href="#">5</a></li>
+							<li class=""><a href="#">&raquo;<span class="sr-only">Siguiente</span></a></li>
+
+						</ul>
+					</div>
+				</nav>
+
+			</section>
+			<aside class="col-md-3 hidden-xs hidden-sm">
+					<h4>Categorias</h4>
+					<div class="list-group">
+						<a href="#" class="list-group-item active">Categoria</a>
+						<a href="#" class="list-group-item">CSS</a>
+						<a href="#" class="list-group-item">Cursos</a>
+						<a href="#" class="list-group-item">Desarrollo web</a>
+						<a href="#" class="list-group-item">Elementos web</a>
+						<a href="#" class="list-group-item">Jquery</a>
+						<a href="#" class="list-group-item">Recursos y herramientas</a>
+					</div>
+					<h4>Articulos recientes</h4>
+					<a href="" class="list-group-item">
+						<h4 class="list-group-item-heading">Inicia proyectos con HTML5 mas rapido y con...</h4>
+						<p class="list-group-item-text">Aprende como iniciar un proyecto en HTML5</p>
+					</a>
+					<a href="" class="list-group-item">
+						<h4 class="list-group-item-heading">Inicia proyectos con HTML5 mas rapido</h4>
+						<p class="list-group-item-text">Aprende como iniciar un proyecto en HTML5</p>
+					</a>
+					<a href="" class="list-group-item">
+						<h4 class="list-group-item-heading">Inicia proyectos con HTML5 mas rapido</h4>
+						<p class="list-group-item-text">Aprende como iniciar un proyecto en HTML5</p>
+					</a>
+			</aside>
+		</div>
+	</section>
+
+	<footer>
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-6">
+					<p>José Pulido Parrafo de Prueba</p>
+				</div>
+				<div class="col-sm-6">
+					<ul class="list-inline text-right">
+						<li><a href="#">inicio</a></li>
+						<li><a href="#">Cursos</a></li>
+						<li><a href="#">Contacto</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<script src="../bootstrap/js/jquery.js"></script>
+	<script src="../js/jquery.min.js"></script>
+	<script src="../bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>

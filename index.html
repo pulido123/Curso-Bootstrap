@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Menú Principal</title>
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+
+</head>
+<body>
+
+	<div class="container">
+		<br>
+		<div class="col-md-12">
+			<div id="carousel-1" class="carousel slide" data-ride="carousel">
+				<ol class="carousel-indicators">
+					<li data-target="#carousel-1" data-slide-to="0" class="active"></li>
+					<li data-target="#carousel-1" data-slide-to="1"></li>
+					<li data-target="#carousel-1" data-slide-to="2"></li>
+				</ol>
+
+				<div class="carousel-inner" role="listbox">
+					<div class="item active">
+						<img src="imagenes/IMG_954430.jpg" class="img-responsive" alt="" >
+						<div class="carousel-caption hidden-xs hidden-sm">
+							<h3>Prácticas de Bootstrap</h3>
+							<p>En esta pagina se estara presentando las prácticas que se realizaron de bootstrap.</p>
+						</div>
+					</div>
+					<div class="item">
+						<img src="imagenes/blog.jpg" class="img-responsive" alt="" >
+						<div class="carousel-caption hidden-xs hidden-sm">
+							<h3>Herramientas Utilizadas</h3>
+							<p>Se presentaran las herramientas Utilizadas dentro del sitio</p>
+						</div>
+					</div>
+					<div class="item">
+						<img src="imagenes/BBVA.jpg" class="img-responsive" alt="" >
+						<div class="carousel-caption hidden-xs hidden-sm">
+							<h3>Proximamente se estaran mostrando un blog</h3>
+							<p>En este blog se dedicara a la seguridad informatica.</p>
+						</div>
+					</div>
+				</div>
+
+				<a href="#carousel-1" class="left carousel-control" role="button" data-slide="prev">
+					<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+					<span class="sr-only">Anterior</span>
+				</a>
+				<a href="#carousel-1" class="right carousel-control" role="button" data-slide="next">
+					<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+					<span class="sr-only">Siguiente</span>
+				</a>
+			</div>
+		</div>
+	</div>
+
+
+	<div class="container">
+		<br>
+
+		<a href="#seccion" class="btn btn-primary btn-lg btn-block" data-toggle="collapse">Descripciones</a>
+		<div class="collapse" id="seccion">
+			<br>
+			<div class="alert alert-success">En los siguientes botones se presentan las practicas como lo dice segun su título y las herramientas que utilice en las partes de este menú principal</div>
+			
+		</div>
+		
+		<div class="panel-group" id="accordion" role="tablist">
+			<br>
+			<div class="panel panel-default">
+				<div class="panel-heading" role="tab" id="heading1">
+					<h4>
+						<a href="#collapse1" data-toggle="collapse" data-parent="#accordion">
+							Menú de practicas <span class="badge">34</span>
+						</a> 						
+					</h4>
+				</div>
+
+				<div id="collapse1" class="panel-collapse collapse">
+					<div class="panel-body">
+						<div class="row">
+							<div class="col-md-3">
+								<a href="1-INTRODUCCION/index.html" class="list-group-item">
+									<h4>1.- Introduccion</h4>
+									<p>Presenta la introduccion del curso</p>
+								</a>
+							</div>
+							<div class="col-md-3">
+								<a href="2-LA_GRID/index.html" class="list-group-item">
+									<h4>2.- La Grid</h4>
+									<p>Se presenta las ubicaciones en la pantalla</p>
+								</a>
+							</div>
+							<div class="col-md-3">
+								<a href="3-TIPOGAFIA_TEXTOS/index.html" class="list-group-item">
+									<h4>3.- Tipografia</h4>
+									<p>Presenta las maneras de presentar el texto en la web</p>
+								</a>
+							</div>
+							<div class="col-md-3">
+								<a href="4-TABLAS/index.html" class="list-group-item">
+									<h4>4.- Tablas</h4>
+									<p>Permite mostrar varios tipos de tablas</p>
+								</a>
+							</div>
+						</div>
+
+						<div class="row">
+							<div class="col-md-3">
+								<div class="list-group-item">
+									<h4>5.- Formularios</h4>
+									<button class="btn btn-danger dropdown-toggle btn-lg btn-block" data-toggle="dropdown">
+										5.- Formularios <span class="caret"></span>
+									</button>
+									<ul class="dropdown-menu" role="menu">
+										<li><a href="5-FORMULARIOS/Forms.html">Forms</a></li>
+										<li><a href="5-FORMULARIOS/Formulario-controles.html">Formulario-controles</a></li>
+										<li><a href="5-FORMULARIOS/Formulario-en-linea.html">Formularios-linea</a></li>
+										<li><a href="5-FORMULARIOS/formulario-horizontal.html">formulario-horizontal</a></li>	
+									</ul>
+								</div>
+							</div>
+							<div class="col-md-3">
+								<a href="6-BOTONES/index.html" class="list-group-item">
+									<h4>6.- Botones</h4>
+									<p>Se presenta las maneras de colocar botones</p>
+								</a>
+							</div>
+							<div class="col-md-3">
+								<a href="7-IMAGENES/index.html" class="list-group-item">
+									<h4>7-IMAGENES</h4>
+									<p>Presenta las maneras de presentar las imagenes en la web</p>
+								</a>
+							</div>
+							<div class="col-md-3">
+								<a href="8-CLASES_AUXILIARES/index.html" class="list-group-item">
+									<h4>8.-Clases Auxiliares</h4>
+									<p>Permite mostrar varios tipos de clases que nos pueden aydar en la web</p>
+								</a>
+							</div>
+						</div>
+
+						<div class="row">
+							<div class="col-md-3">
+								<a href="9-HERRAMIENTAS_RESPONSIVAS/index.html" class="list-group-item">
+									<h4>9.- Herramientas Responsivas</h4>
+									<p>Presenta la manera de separar y acomodar los controles en diferentes pestañas</p>
+								</a>
+							</div>
+							<div class="col-md-3">
+								<a href="10-ICONOS/index.html" class="list-group-item">
+									<h4>10.-Iconos</h4>
+									<p>Se presenta los diferentes iconos que trae bootstrap</p>
+								</a>
+							</div>
+							<div class="col-md-3">
+								<a href="11-DROPDOWN/index.html" class="list-group-item">
+									<h4>11.- Dropdown</h4>
+									<p>Muestra un boton desplegable con diferentes funciones</p>
+								</a>
+							</div>
+							<div class="col-md-3">
+								<a href="12-GRUPO_BOTONES/index.html" class="list-group-item">
+									<h4>12.- Grupo de botones</h4>
+									<p>Permite mostrar los grupos de botones que se pueden agregar a nuestra página</p>
+								</a>
+							</div>
+						</div>
+
+						<div class="row">
+							<div class="col-md-3">
+								<a href="13-DROPDOWN_BUTTONS/index.html" class="list-group-item">
+									<h4>13-DROPDOWN_BUTTONS</h4>
+									<p>Presenta la manera en que los botones pueden ser desplegables</p>
+								</a>
+							</div>
+							<div class="col-md-3">
+								<a href="14-INPUT_GRUPOS/index.html" class="list-group-item">
+									<h4>14-INPUT_GRUPOS</h4>
+									<p>Se presenta los diferentes imputs que se pueden agregar</p>
+								</a>
+							</div>
+							<div class="col-md-3">
+								<a href="15-NAVEGACIONES/index.html" class="list-group-item">
+									<h4>15-NAVEGACIONES</h4>
+									<p>Muestra las maneras de navegar en la misma pagina</p>
+								</a>
+							</div>
+							<div class="col-md-3">
+								<a href="16-NAVBARS/index.html" class="list-group-item">
+									<h4>16-NAVBARS</h4>
+									<p>Permite visualizar un menu en una barra inferior</p>
+								</a>
+							</div>
+						</div>
+
+						<div class="row">
+							<div class="col-md-3">
+								<a href="17-BREADCRUMS/index.html" class="list-group-item">
+									<h4>17-BREADCRUMS</h4>
+									<p>Presenta una navegacion en la parte inferior</p>
+								</a>
+							</div>
+							<div class="col-md-3">
+								<a href="18-PAGINACION/index.html" class="list-group-item">
+									<h4>18-PAGINACION</h4>
+									<p>Permite navegar por medio de botones entres las paginas</p>
+								</a>
+							</div>
+							<div class="col-md-3">
+								<a href="19-ETIQUETAS/index.html" class="list-group-item">
+									<h4>19-ETIQUETAS</h4>
+									<p>Permite mostrar las etiquetas despues del texto o donde requiera</p>
+								</a>
+							</div>
+							<div class="col-md-3">
+								<a href="20-INSIGNIAS/index.html" class="list-group-item">
+									<h4>20-INSIGNIAS</h4>
+									<p>Permite visualisar numeros dentro de un control indicando una alerta u otra cosa</p>
+								</a>
+							</div>
+						</div>
+
+						<div class="row">
+							<div class="col-md-3">
+								<a href="21-JUMBOTRON/index.html" class="list-group-item">
+									<h4>21-JUMBOTRON</h4>
+									<p>Presenta una manera de expandir texto</p>
+								</a>
+							</div>
+							<div class="col-md-3">
+								<a href="22-ENCABEZADOS/index.html" class="list-group-item">
+									<h4>22-ENCABEZADOS</h4>
+									<p>Permite mostrar una manera agradable de colocar un encabezado</p>
+								</a>
+							</div>
+							<div class="col-md-3">
+								<a href="23-MINIATURAS/index.html" class="list-group-item">
+									<h4>23-MINIATURAS</h4>
+									<p>Permite agregar texto debajo del principal</p>
+								</a>
+							</div>
+							<div class="col-md-3">
+								<a href="24-ALERTAS/index.html" class="list-group-item">
+									<h4>24-ALERTAS</h4>
+									<p>Muestra las maneras en que se puede mostrar los mensajes de alertas</p>
+								</a>
+							</div>
+						</div>
+
+						<div class="row">
+							<div class="col-md-3">
+								<a href="25-PROGRESS_BAR/index.html" class="list-group-item">
+									<h4>25-PROGRESS_BAR</h4>
+									<p>Presenta una manera de visualizar una accion tardia que se esta realizando en una barra</p>
+								</a>
+							</div>
+							<div class="col-md-3">
+								<a href="26-GRUPOS_LISTA/index.html" class="list-group-item">
+									<h4>26-GRUPOS_LISTA</h4>
+									<p>Muestra los distintos tipos de grupos en listas</p>
+								</a>
+							</div>
+							<div class="col-md-3">
+								<a href="27-MEDIA_OBJECT/index.html" class="list-group-item">
+									<h4>27-MEDIA_OBJECT</h4>
+									<p>Permite hacer tabulaciones dentro de un panel o dentro de la pagina</p>
+								</a>
+							</div>
+							<div class="col-md-3">
+								<a href="28-PANELES/index.html" class="list-group-item">
+									<h4>28-PANELES</h4>
+									<p>Muestra los diseños de los paneles que se pueden usar</p>
+								</a>
+							</div>
+						</div>
+
+						<div class="row">
+							<div class="col-md-3">
+								<a href="29-MODALES/index.html" class="list-group-item">
+									<h4>29-MODALES</h4>
+									<p>Permite en un boton mostrar una ventana que muestra información</p>
+								</a>
+							</div>
+							<div class="col-md-3">
+								<a href="30-SCROLLSPY/index.html" class="list-group-item">
+									<h4>30-SCROLLSPY</h4>
+									<p>Permite enviarte a algun grupo de texto por medio de un panel</p>
+								</a>
+							</div>
+							<div class="col-md-3">
+								<a href="31-ACORDENON/index.html" class="list-group-item">
+									<h4>31-ACORDENON</h4>
+									<p>Permite mostrar y ocultar tecto o paneles</p>
+								</a>
+							</div>
+							<div class="col-md-3">
+								<a href="32-TABS_DINAMICAS/index.html" class="list-group-item">
+									<h4>32-TABS_DINAMICAS</h4>
+									<p>permiten mostrar texto o paneles haciendo click a un boton o link</p>
+								</a>
+							</div>
+						</div>
+
+						<div class="row">			
+							<div class="col-md-6">
+								<a href="33-SLIDESHOW/index.html" class="list-group-item">
+									<h4>33-SLIDESHOW</h4>
+									<p>permite mostrar un carrusel de imagenes</p>
+								</a>
+							</div>
+							<div class="col-md-6">
+								<a href="34-LAYOUT/index.html" class="list-group-item">
+									<h4>34-LAYOUT</h4>
+									<p>Muestra una combinación de los temas anteriores y la creacion de una pequeña pagina</p>
+								</a>
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</div>
+			<br>
+
+			<div class="panel panel-default">
+				<div class="panel-heading" role="tab" id="heading2">
+					<h4>
+						<a href="#collapse2" data-toggle="collapse" data-parent="#accordion">
+							Herramientas Utilizadas <span class="badge">7</span>
+						</a> 						
+					</h4>
+				</div>
+
+				<div id="collapse2" class="panel-collapse collapse">
+					<div class="panel-body">
+						<div class="row">
+							<div class="col-md-3">
+								<a href="#" class="list-group-item">
+									<h4>Slideshow</h4>
+									<p>Esta herramienta la utilice para crear las partes de las imagenes en la parte inferior de la pagina</p>
+								</a>
+							</div>
+							<div class="col-md-3">
+								<a href="#" class="list-group-item">
+									<h4>Acordeon</h4>
+									<p>Utilice la herramienta para colocar los links por debajo de ellos</p>
+								</a>
+							</div>
+							<div class="col-md-3">
+								<a href="#" class="list-group-item">
+									<h4>Alertas</h4>
+									<p>Se utilizó para mostrar las descripciones de la pagina actual</p>
+								</a>
+							</div>
+							<div class="col-md-3">
+								<a href="#" class="list-group-item">
+									<h4>Paneles</h4>
+									<p>Se utilizó para que esten los enlaces de las practicas</p>
+								</a>
+							</div>
+						</div>
+
+						<div class="row">
+							<div class="col-md-4">
+								<a href="#" class="list-group-item">
+									<h4>Insignias</h4>
+									<p>Se utilizo para colocar la cantidad de elementos dentro de cada panel</p>
+								</a>
+							</div>
+							<div class="col-md-4">
+								<a href="#" class="list-group-item">
+									<h4>Dropdown Buttons</h4>
+									<p>Se utilizó para mostrar las 5 formas de hacer formularios dentro de la practica 5</p>
+								</a>
+							</div>
+							<div class="col-md-4">
+								<a href="#" class="list-group-item">
+									<h4>Herramientas Responsivas</h4>
+									<p>Se utilizo para que se acoplaran al tamaño de la pantalla</p>
+								</a>
+							</div>
+							
+						</div>
+						
+					</div>
+				</div>
+			</div>			
+		</div>
+	</div>
+
+
+	<script src="js/jquery.min.js"></script>
+	<script src="bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>
